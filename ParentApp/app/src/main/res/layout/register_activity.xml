@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Student Registration"
+    android:gravity="center_horizontal"
+    android:textSize="30sp"/>
+        <!-- Roll NO Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Roll No"
+            android:textSize="17dip"
+            />
+
+        <!-- Roll NO  -->
+        <EditText
+            android:id="@+id/ET_ROLL"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:inputType="number"
+            android:singleLine="true"
+            />
+
+        <!-- SNAME Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Student Name"
+            android:textSize="17dip" />
+
+        <!-- Student Name-->
+        <EditText
+            android:id="@+id/ET_SNAME"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:inputType="text"
+            android:singleLine="true" />
+
+        <!-- Class Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Class"
+            android:textSize="17dip" />
+
+        <!-- Input Class -->
+        <EditText
+            android:id="@+id/ET_CLASS"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:gravity="top"
+            android:lines="1" />
+
+        <!-- Father Name Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Father Name"
+            android:textSize="17dip" />
+
+        <!-- Input Father Name -->
+        <EditText
+            android:id="@+id/ET_FatherName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:gravity="top"
+            android:lines="1" />
+
+        <!-- Father NO Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Father Mobile"
+            android:textSize="17dip"
+            />
+
+        <!-- Input FatherNO -->
+        <EditText
+            android:id="@+id/ET_FATHERNO"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:gravity="top"
+            android:lines="1"
+            android:inputType="phone"/>
+
+        <!-- Mother Name Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Mother Name"
+            android:textSize="17dip" />
+
+        <!-- Input MotherName -->
+        <EditText
+            android:id="@+id/ET_MotherName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:gravity="top"
+            android:inputType="text"
+            android:lines="1" />
+        <!-- Mother Name Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Mother Mobile"
+            android:textSize="17dip" />
+
+        <!-- Input MotherNO -->
+        <EditText
+            android:id="@+id/ET_MotherNo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:gravity="top"
+            android:inputType="phone"
+            android:lines="1" />
+
+        <!-- Route Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Route"
+            android:textSize="17dip" />
+
+        <!-- Input Route -->
+
+        <Spinner
+            android:id="@+id/SP_Route"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            ></Spinner>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Shift"
+            android:textSize="17dip" />
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/SPINNER_SHIFT"></Spinner>
+
+
+
+
+
+
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:weightSum="1"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    >
+
+
+        <!-- Button Create Product -->
+        <Button
+            android:id="@+id/BT_SaveStudentRecord"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Record"
+            android:layout_weight=".5"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:text="Get Location"
+        android:id="@+id/BT_GETLOCATION"/>
+
+</LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

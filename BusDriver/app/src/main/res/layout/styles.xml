@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">#F50057</item>
+        <item name="android:colorPrimaryDark">#C51162</item>
+        <item name="android:colorAccent">#FF80AB</item>
+        <item name="android:navigationBarColor">#000000</item>
+        <item name="android:displayOptions">disableHome</item>
+    </style>
+
+</resources>
